@@ -1,0 +1,259 @@
+{
+   "programs":[
+    {
+      "id":1,
+      "name":"System Engineering"
+    },
+    {
+      "id":2,
+      "name":"Industrial Engineering"
+    }
+  ],
+  "subjects": [
+  {
+    "id": 1,
+    "name": "System Engineering Introduction",
+    "level": 1,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 2,
+    "programId": 1
+  },
+  {
+    "id": 2,
+    "name": "Algorithms",
+    "level": 1,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 3,
+    "name": "Diferential Calculus",
+    "level": 1,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 4,
+    "name": "Chemistry",
+    "level": 1,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 5,
+    "name": "Thinking Skills",
+    "level": 1,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 6,
+    "name": "English I",
+    "level": 1,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 2,
+    "programId": 1
+  },
+  {
+    "id": 7,
+    "name": "Integral Calculus",
+    "level": 2,
+    "status": "pending",
+    "prerequisites": [3],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 8,
+    "name": "Lineal Algebra",
+    "level": 2,
+    "status": "pending",
+    "prerequisites": [3],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 9,
+    "name": "Scientific Texts Composition",
+    "level": 2,
+    "status": "pending",
+    "prerequisites": [5],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 10,
+    "name": "Programming I",
+    "level": 2,
+    "status": "pending",
+    "prerequisites": [2],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 11,
+    "name": "Physic I",
+    "level": 2,
+    "status": "pending",
+    "prerequisites": [3],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 12,
+    "name": "English II",
+    "level": 2,
+    "status": "pending",
+    "prerequisites": [6],
+    "Credits": 2,
+    "programId": 1
+  },
+  {
+    "id": 13,
+    "name": "Vectorial Calculus",
+    "level": 3,
+    "status": "pending",
+    "prerequisites": [7],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 14,
+    "name": "Programming II",
+    "level": 3,
+    "status": "pending",
+    "prerequisites": [10],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 15,
+    "name": "Physic II",
+    "level": 3,
+    "status": "pending",
+    "prerequisites": [7],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 16,
+    "name": "Discrete Maths",
+    "level": 3,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 17,
+    "name": "English III",
+    "level": 3,
+    "status": "pending",
+    "prerequisites": [12],
+    "Credits": 2,
+    "programId": 1
+  },
+  {
+    "id": 18,
+    "name": "Diferential Ecuations",
+    "level": 4,
+    "status": "pending",
+    "prerequisites": [13],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 19,
+    "name": "Data Structures",
+    "level": 4,
+    "status": "pending",
+    "prerequisites": [14],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 20,
+    "name": "Physic III",
+    "level": 4,
+    "status": "pending",
+    "prerequisites": [15],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 21,
+    "name": "Numeric Methods",
+    "level": 4,
+    "status": "pending",
+    "prerequisites": [13,18],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 22,
+    "name": "English IV",
+    "level": 4,
+    "status": "pending",
+    "prerequisites": [17],
+    "Credits": 2,
+    "programId": 1
+  },
+  {
+    "id": 23,
+    "name": "Economic Entorn",
+    "level": 5,
+    "status": "pending",
+    "prerequisites": [],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 24,
+    "name": "Theory Of Computation",
+    "level": 5,
+    "status": "pending",
+    "prerequisites": [19],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 25,
+    "name": "Data Bases Fundamentals",
+    "level": 5,
+    "status": "pending",
+    "prerequisites": [19],
+    "Credits": 4,
+    "programId": 1
+  },
+  {
+    "id": 26,
+    "name": "Computer Arquitecture",
+    "level": 5,
+    "status": "pending",
+    "prerequisites": [15],
+    "Credits": 3,
+    "programId": 1
+  },
+  {
+    "id": 27,
+    "name": "English V",
+    "level": 5,
+    "status": "pending",
+    "prerequisites": [22],
+    "Credits": 2,
+    "programId": 1
+  }
+  ]
+
+
+}
