@@ -14,9 +14,9 @@ class SyllabusIndex extends Component {
    renderSubjects(){
        console.log(this.props.subjects);
        
-       return this.props.subjects.map((subject) => {
+       return this.props.subjects.map((subject,i) => {
            return(
-               <SVGsquare name={subject.name}/>
+               <SVGsquare name={subject.name} y={90*i} textY={40*(i+1)}/>
            );
        });
    }
