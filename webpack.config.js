@@ -1,7 +1,7 @@
 module.exports = {
-  entry: "./app/app.js",
+  entry: "./src/index.js",
   output:{
-    filename: "./app/bundle.js"
+    filename: "./dist/bundle.js"
   },
   module:{
    preLoaders:[
