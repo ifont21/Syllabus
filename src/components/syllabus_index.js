@@ -4,21 +4,36 @@ import { bindActionCreators }from 'redux';
 import { fetchSubjects } from '../actions/index';
 import SVGsquare from './svg_square';
 
-
+const levels = 10;
 class SyllabusIndex extends Component {
    
    componentWillMount(){
      this.props.fetchSubjects();
    }
 
-   renderSubjects(){
-       return this.props.subjects.map((subject,i) => {
-         return(
+   renderSubjectsByLevel(level){
+       let subjectsLevel = this.props.subjects.filter((subject) => {
+           return subject.level == level;
+       }); 
+       return subjectsLevel.map((subject,i) => {
+         if(subject.level == level){
+             return(
                <SVGsquare name={subject.name} 
                           index={i}
-                          key={subject.id} />
+                          key={subject.id}
+                          level={subject.level} />
            );
+        }
        });
+   }
+
+   renderSubjects(){
+     let subjs = [];
+     for(let i=0;i<10;i++){
+          subjs.push(this.renderSubjectsByLevel(i));
+     }
+     return subjs;
+
    }
 
 
@@ -28,7 +43,7 @@ class SyllabusIndex extends Component {
                <svg version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1080 1080">
-                   {this.renderSubjects()}     
+                   {this.renderSubjects()}
                 </svg>         
             </div>
         )

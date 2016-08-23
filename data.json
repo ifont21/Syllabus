@@ -102,7 +102,7 @@
   },
   {
     "id": 11,
-    "name": "Physic I",
+    "name": "Physics I",
     "level": 2,
     "status": "pending",
     "prerequisites": [3],
@@ -138,7 +138,7 @@
   },
   {
     "id": 15,
-    "name": "Physic II",
+    "name": "Physics II",
     "level": 3,
     "status": "pending",
     "prerequisites": [7],
@@ -183,7 +183,7 @@
   },
   {
     "id": 20,
-    "name": "Physic III",
+    "name": "Physics III",
     "level": 4,
     "status": "pending",
     "prerequisites": [15],
