@@ -2,3 +2,7 @@ svg{
   height: auto;
   width: 1080px;
 }
+
+text.name-subject{
+   font-size: 0.8em;
+}
