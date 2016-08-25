@@ -17,11 +17,15 @@ class SyllabusIndex extends Component {
        }); 
        return subjectsLevel.map((subject,i) => {
          if(subject.level == level){
+             let positionMapping = { index:i , id:subject.id};
              return(
                <SVGsquare name={subject.name} 
                           index={i}
                           key={subject.id}
-                          level={subject.level} />
+                          level={subject.level}
+                          mapPosition={positionMapping}
+                          prIds={subject.prerequisites}
+                           />
            );
         }
        });
